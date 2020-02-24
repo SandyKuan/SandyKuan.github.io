@@ -182,7 +182,7 @@
            var sub = document.getElementById('submitBut');
            var newDiv = document.createElement("div");
            newDiv.id = idCnt.toString();
-           newDiv.innerHTML = "<b><h4>Name:</h4></b><input type='text' id='tstt'required>"+"<b><h4>Description:</h4></b><textarea id='tst'required minlength=30>"
+           newDiv.innerHTML = "<b><h4>Name:</h4></b><input type='text' id='mturk_form' name='mturk_form' required>"+"<b><h4>Description:</h4></b><textarea id='tst'required minlength=30>"
            newDiv.innerHTML += "<button class='button0' onclick ='deletecharacter(this)' value='delete'> delete </button>"
            idCnt = idCnt + 1;
            ansZone.insertBefore(newDiv,sub);      
